@@ -1,0 +1,107 @@
+/* General*/
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    color: #171717;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+/*Header*/
+
+header{
+    background-color: #171717;
+    color: whitesmoke;
+    height: 350px;
+    padding-top: 25px;
+
+}
+.foto{
+    height: 250px;
+    width: 250px;
+    border: 1px whitesmoke solid;
+    margin-top: 25px;
+    margin-left: 100px;
+    float: left;
+    margin-bottom: 25px;
+
+}
+
+.meno{
+    margin-top: 50px;
+    float: left;
+    margin-left: 30px;
+
+   
+}
+.meno::before{
+    content: " ║ ";
+}
+
+aside{
+margin-left: 1100px;
+margin-top: 50px;
+}
+
+.menu{
+    list-style-type: none;
+    margin-left: -100px;
+}
+/* MAIN */
+
+.menu1{
+    list-style-type: none;
+    line-height: 23px;
+}
+
+h2::before{
+    content: " ║ ";
+    
+}
+
+h2{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+.spolocnost{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.roky{
+    font-weight: bold;
+    margin-right: 100px;
+    float: left;
+}
+.text{
+    display: inline-block;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+a:hover{
+    color: gold;
+}
+
+section{
+    border-bottom: 1px solid #171717;
+    padding: 20px 0px;
+}
+li{
+    margin-left: 100px;
+}
+
+.menu1{
+    margin-bottom: 10px;
+}
